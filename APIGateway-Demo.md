@@ -1,8 +1,8 @@
-API Gateway Demo
+#API Gateway Demo
 
-API Gateway mapping template: https://docs.aws.amazon.com/apigateway/latest/developerguide/models-mappings.html
+#API Gateway mapping template: https://docs.aws.amazon.com/apigateway/latest/developerguide/models-mappings.html
 
-API Gateway model:
+#API Gateway model:
 
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
@@ -16,7 +16,7 @@ API Gateway model:
 	"required": ["UserId","NoteId","Note"]
 }
 
-API Gateway mapping for DynamoDB:
+#API Gateway mapping for DynamoDB:
 
 {
 	"TableName": "Notes",
